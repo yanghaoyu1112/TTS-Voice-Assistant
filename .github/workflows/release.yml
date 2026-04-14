@@ -30,6 +30,13 @@ jobs:
           PYTHONIOENCODING: utf-8
         run: python build.py
 
+      - name: Remove old Chinese-named asset
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          gh release delete-asset "${{ github.ref_name }}" "TTS语音助手.exe" --yes || true
+
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v2
         with:
