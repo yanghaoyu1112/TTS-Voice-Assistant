@@ -1,0 +1,27 @@
+{
+  "audio_device_id": null,
+  "audio_device_name": null,
+  "volume": 1.0,
+  "hotkey": "<ctrl>+<shift>+t",
+  "edge_voice": "zh-CN-XiaoxiaoNeural",
+  "edge_rate": "+0%",
+  "edge_pitch": "+0Hz",
+  "edge_volume": "+0%",
+  "sapi5_rate": 180,
+  "sapi5_volume": 0.9,
+  "_available": {
+    "edge_voice": [
+      "zh-CN-XiaoxiaoNeural",
+      "zh-CN-YunxiNeural",
+      "zh-CN-YunjianNeural",
+      "zh-CN-YunyangNeural",
+      "zh-CN-YunxiaNeural",
+      "zh-CN-XiaoyiNeural"
+    ],
+    "edge_rate": "字符串，范围 -100% ~ +100%，例如 +0%, +50%, -30%",
+    "edge_pitch": "字符串，范围 -50Hz ~ +50Hz，例如 +0Hz, +20Hz, -10Hz",
+    "edge_volume": "字符串，范围 -100% ~ +100%，例如 +0%, +50%, -50%",
+    "sapi5_rate": "整数，语速(词/分钟)，范围 50 ~ 400，默认 180",
+    "sapi5_volume": "浮点数，范围 0.0 ~ 1.0，默认 0.9"
+  }
+}
