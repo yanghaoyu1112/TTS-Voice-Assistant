@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='TTS语音助手',
+    name='TTS-Voice-Assistant',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

@@ -58,7 +58,7 @@ def main():
 
     args = [
         "src/main.py",
-        "--name=TTS语音助手",
+        "--name=TTS-Voice-Assistant",
         mode,
         "--windowed",
         "--clean",
@@ -86,9 +86,9 @@ def main():
 
     print(f"[Build] 打包完成！输出目录: dist/")
     if mode == "--onefile":
-        print("[Build] 可执行文件: dist/TTS语音助手.exe")
+        print("[Build] 可执行文件: dist/TTS-Voice-Assistant.exe")
     else:
-        print("[Build] 可执行文件: dist/TTS语音助手/TTS语音助手.exe")
+        print("[Build] 可执行文件: dist/TTS-Voice-Assistant/TTS-Voice-Assistant.exe")
     print("[Build] 提示: --onedir 模式可降低杀毒软件误报概率")
 
 

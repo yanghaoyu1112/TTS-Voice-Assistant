@@ -34,6 +34,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            dist/TTS语音助手.exe
+            dist/TTS-Voice-Assistant.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
