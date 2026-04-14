@@ -26,6 +26,8 @@ jobs:
           pip install -r requirements.txt pyinstaller
 
       - name: Build with PyInstaller
+        env:
+          PYTHONIOENCODING: utf-8
         run: python build.py
 
       - name: Upload Release Asset
